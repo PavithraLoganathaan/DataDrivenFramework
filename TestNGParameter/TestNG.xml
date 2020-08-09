@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="testNGsuite" verbose="2">
+
+
+<test name="BothCorrect">
+<parameter name="NAme" value="Admin"></parameter>
+<parameter name="Pass" value="admin123"></parameter>
+<classes>
+<class name="Parameter.BothCorrect"></class>
+</classes>
+</test>
+
+<test name="BothInCorrect">
+<parameter name="NAme" value="Admin1"></parameter>
+<parameter name="Pass" value="4admin123"></parameter>
+<classes>
+<class name="Parameter.BothIncorrect"></class>
+</classes>
+</test>
+
+<test name="CorrectPass">
+<parameter name="NAme" value="1Admin"></parameter>
+<parameter name="Pass" value="admin123"></parameter>
+<classes>
+<class name="Parameter.CorrectPass"></class>
+</classes>
+</test>
+
+<test name="CorrectUname">
+<parameter name="NAme" value="Admin"></parameter>
+<parameter name="Pass" value="admin1234"></parameter>
+<classes>
+<class name="Parameter.CorrectUname"></class>
+</classes>
+</test>
+
+
+</suite>
+
+
+
+

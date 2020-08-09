@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="testNGsuite" duration-ms="51600" started-at="2020-08-09T08:10:18 IST" finished-at="2020-08-09T08:11:10 IST">
+    <groups>
+    </groups>
+    <test name="BothCorrect" duration-ms="22535" started-at="2020-08-09T08:10:18 IST" finished-at="2020-08-09T08:10:41 IST">
+      <class name="Parameter.BothCorrect">
+        <test-method status="PASS" signature="bothcorrect(java.lang.String, java.lang.String)[pri:0, instance:Parameter.BothCorrect@61f8bee4]" name="bothcorrect" duration-ms="22499" started-at="2020-08-09T08:10:18 IST" finished-at="2020-08-09T08:10:41 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bothcorrect -->
+      </class> <!-- Parameter.BothCorrect -->
+    </test> <!-- BothCorrect -->
+    <test name="BothInCorrect" duration-ms="9935" started-at="2020-08-09T08:10:41 IST" finished-at="2020-08-09T08:10:51 IST">
+      <class name="Parameter.BothIncorrect">
+        <test-method status="PASS" signature="bothINcorrect(java.lang.String, java.lang.String)[pri:0, instance:Parameter.BothIncorrect@30b8a058]" name="bothINcorrect" duration-ms="9931" started-at="2020-08-09T08:10:41 IST" finished-at="2020-08-09T08:10:51 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Admin1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[4admin123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bothINcorrect -->
+      </class> <!-- Parameter.BothIncorrect -->
+    </test> <!-- BothInCorrect -->
+    <test name="CorrectPass" duration-ms="9428" started-at="2020-08-09T08:10:51 IST" finished-at="2020-08-09T08:11:00 IST">
+      <class name="Parameter.CorrectPass">
+        <test-method status="PASS" signature="correctpass(java.lang.String, java.lang.String)[pri:0, instance:Parameter.CorrectPass@67205a84]" name="correctpass" duration-ms="9421" started-at="2020-08-09T08:10:51 IST" finished-at="2020-08-09T08:11:00 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1Admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- correctpass -->
+      </class> <!-- Parameter.CorrectPass -->
+    </test> <!-- CorrectPass -->
+    <test name="CorrectUname" duration-ms="9661" started-at="2020-08-09T08:11:00 IST" finished-at="2020-08-09T08:11:10 IST">
+      <class name="Parameter.CorrectUname">
+        <test-method status="PASS" signature="correctUname(java.lang.String, java.lang.String)[pri:0, instance:Parameter.CorrectUname@1f554b06]" name="correctUname" duration-ms="9657" started-at="2020-08-09T08:11:00 IST" finished-at="2020-08-09T08:11:10 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin1234]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- correctUname -->
+      </class> <!-- Parameter.CorrectUname -->
+    </test> <!-- CorrectUname -->
+  </suite> <!-- testNGsuite -->
+</testng-results>

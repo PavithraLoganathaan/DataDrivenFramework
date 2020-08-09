@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [testNGsuite]">
+  <test thread-count="5" name="BothCorrect(failed)">
+    <parameter name="Pass" value="admin123"/>
+    <parameter name="NAme" value="Admin"/>
+    <classes>
+      <class name="Parameter.BothCorrect">
+        <methods>
+          <include name="bothcorrect"/>
+        </methods>
+      </class> <!-- Parameter.BothCorrect -->
+    </classes>
+  </test> <!-- BothCorrect(failed) -->
+  <test thread-count="5" name="BothInCorrect(failed)">
+    <parameter name="Pass" value="4admin123"/>
+    <parameter name="NAme" value="Admin1"/>
+    <classes>
+      <class name="Parameter.BothIncorrect">
+        <methods>
+          <include name="bothINcorrect"/>
+        </methods>
+      </class> <!-- Parameter.BothIncorrect -->
+    </classes>
+  </test> <!-- BothInCorrect(failed) -->
+  <test thread-count="5" name="CorrectPass(failed)">
+    <parameter name="Pass" value="admin123"/>
+    <parameter name="NAme" value="1Admin"/>
+    <classes>
+      <class name="Parameter.CorrectPass">
+        <methods>
+          <include name="correctpass"/>
+        </methods>
+      </class> <!-- Parameter.CorrectPass -->
+    </classes>
+  </test> <!-- CorrectPass(failed) -->
+  <test thread-count="5" name="CorrectUname(failed)">
+    <parameter name="Pass" value="admin1234"/>
+    <parameter name="NAme" value="Admin"/>
+    <classes>
+      <class name="Parameter.CorrectUname">
+        <methods>
+          <include name="correctUname"/>
+        </methods>
+      </class> <!-- Parameter.CorrectUname -->
+    </classes>
+  </test> <!-- CorrectUname(failed) -->
+</suite> <!-- Failed suite [testNGsuite] -->
