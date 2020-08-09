@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="testNGsuite" verbose="2">
+
+<test name="LoginPAge1">
+<classes>
+<class name="Login"></class>
+</classes>
+</test>
+
+
+
+</suite>
+
+
+
+
